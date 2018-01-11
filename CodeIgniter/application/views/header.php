@@ -3,61 +3,59 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!doctype html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
 
-<style type="text/css">
+    <style type="text/css">
 
-body {
-    background: #08121A;
-    margin:0;
-    padding:0;
-    font-family: 'Source Sans Pro', 'sans-serif';
-    
-    color: white;
-    
-}
+    body {
+        background: #08121A;
+        margin:0;
+        padding:0;
+        font-family: 'Source Sans Pro', 'sans-serif';
+        color: white;
+    }
 
-* {
-    margin:0;
-    padding:0;
-}
+    * {
+        margin:0;
+        padding:0;
+    }
 
-table {
-    width: 100%;
-    text-align: left;
-}
+    table {
+        width: 100%;
+        text-align: left;
+    }
 
-th, td {
-    padding: 10px 10px;
-}
+    th, td {
+        padding: 10px 10px;
+    }
 
-th {
-    color: white;
-    background: #141517 none repeat-x scroll left top;
-}
+    th {
+        color: white;
+        background: #141517 none repeat-x scroll left top;
+    }
 
-td {
-    border-bottom: 1px solid #1F2023;
-}
+    td {
+        border-bottom: 1px solid #1F2023;
+    }
 
-a {
-    color: white;
-    border-bottom: 1px solid #6B7480;
-    text-decoration: none;
-}
+    a {
+        color: white;
+        border-bottom: 1px solid #6B7480;
+        text-decoration: none;
+    }
 
-h1 {
-	font-size: 200%;
-}
+    h1 {
+       font-size: 200%;
+   }
 
-#cabecera {
-	border: 40px solid #566573;
-	background-color: #566573;
-	border-radius: 6px;
-}
+   #cabecera {
+       border: 40px solid #566573;
+       background-color: #566573;
+       border-radius: 6px;
+   }
 
-.width {
+   .width {
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -136,13 +134,13 @@ h1 {
 
 </head>
 <body>
-<div id="container" class="width">
-<br>
+    <div id="container" class="width">
+        <br>
 
-<div id="cabecera">
+        <div id="cabecera">
 
-	<h1>Gestion de tablas para Admin</h1>
+           <h1>Gestion de tablas para Admin</h1>
 
-	<a href="">Cerrar Sesion</a>
+           <a href="">Cerrar Sesion</a>
 
-</div>
+       </div>
