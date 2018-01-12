@@ -9,11 +9,12 @@ class Usuario_model extends CI_Model{
 	}
 
 	public function nuevo_usuario($datos){
+		$passwordmd5=md5($_POST['Password']);
 		$datosBD = array(
 			'ID_Centro' => $this->input->post('ID_Centro'),
 			'ID_TUsuario' => $this->input->post('ID_TUsuario'),
 			'User' => $this->input->post('User'),									
-			'Password' => $this->input->post('Password'),
+			'Password' =>$passwordmd5,
 			'Nombre' => $this->input->post('Nombre'),
 			'Apellidos' => $this->input->post('Apellidos'),
 			'Email' => $this->input->post('Email'),
@@ -64,11 +65,12 @@ class Usuario_model extends CI_Model{
 	}	
 
 	public function actualizar_usuario($id,$datos){
+		$passwordmd5=md5($datos['Password']);
 		$datosBD = array(
 			'ID_Centro' => $datos['ID_Centro'],
 			'ID_TUsuario' => $datos['ID_TUsuario'],			
 			'User' => $datos['User'],
-			'Password' => $datos['Password'],
+			'Password' => $passwordmd5,
 			'Nombre' => $datos['Nombre'],
 			'Apellidos' => $datos['Apellidos'],
 			'Email' => $datos['Email'],
