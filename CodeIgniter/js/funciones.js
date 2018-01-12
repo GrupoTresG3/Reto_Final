@@ -35,4 +35,7 @@ $(document).ready(function(){
       $("#cargarMedicion").click(function(){
         $("#contenido").load("index.php/Medicion");
     });
+       $("#cargarLogin").click(function(){
+        $("#contenido").load("index.php/Login");
+    });
 });

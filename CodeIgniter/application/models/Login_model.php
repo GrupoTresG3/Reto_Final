@@ -28,7 +28,15 @@ class Login_model extends CI_Model{
 			}
 		}
 	}
-}
+		public function cerrar_sesion(){
+				session_start();
+				session_destroy(); 
+		
+		}
+	}
+
+
+
 
 
 ?>

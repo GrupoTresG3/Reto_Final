@@ -26,6 +26,10 @@ class Login extends CI_Controller {
     $this->Login_model->obtener_tipo_usuario($datos);
     redirect('');   
   }
+  public function cerrar_sesion(){
+    $this->Login_model->cerrar_sesion($datos);
+    redirect('');   
+  }
 
   
 }

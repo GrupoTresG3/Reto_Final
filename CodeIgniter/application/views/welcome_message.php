@@ -24,7 +24,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     if(!isset($_SESSION['user_id'])){
 
         ?>
-        <h1>HOLAAA</h1>
+        <div id="container" class="width">
+
+            <header> 
+             <div class="width">
+
+
+                <nav>   
+                    <ul class="sf-menu dropdown">
+
+                        <li class="selected"><a href="index.php">Inicio</a></li>
+
+                    <li><a href=<? base_url()?>"#" id="cargarLogin">Login</a></li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+        </div>
+        <div class="clear"></div>   
+    </header>
+
+    <div id="contenido"></div>
         <?php 
     }
     else if((isset($_SESSION['user_id']))&&($_SESSION['user_id']=='1')){
@@ -67,6 +86,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <li><a href=<? base_url()?>"#" id="cargarMedicion">Medicion</a></li>
                         </ul>
                     </li>
+                    <li><a href=<? base_url()?>"index.php/Login/cerrar_sesion" >Cerrar Sesion</a></li>
                 </ul>
                 <div class="clear"></div>
             </nav>
@@ -100,6 +120,7 @@ else if ((isset($_SESSION['user_id']))&&($_SESSION['user_id']=='2')){
                             <li><a href=<? base_url()?>"#" id="cargarMedicion">Medicion</a></li>
                         </ul>
                     </li>
+                    <li><a href=<? base_url()?>"index.php/Login/cerrar_sesion" >Cerrar Sesion</a></li>
                 </ul>
                 <div class="clear"></div>
             </nav>
@@ -133,6 +154,7 @@ else{
                             <li><a href=<? base_url()?>"#" id="cargarMedicion">Medicion</a></li>
                         </ul>
                     </li>
+                    <li><a href=<? base_url()?>"index.php/Login/cerrar_sesion" >Cerrar Sesion</a></li>
                 </ul>
                 <div class="clear"></div>
             </nav>
