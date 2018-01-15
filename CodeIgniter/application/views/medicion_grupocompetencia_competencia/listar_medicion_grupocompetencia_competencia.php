@@ -79,7 +79,7 @@
 		if ($mediciones_gruposcompetencias_competencias){
 			printf('<table>
 				<thead>			
-				<tr>');
+				<tr >');
 			$primermediciongrupocompetenciacompetencia = $mediciones_gruposcompetencias_competencias->result()[0];
 			foreach ($primermediciongrupocompetenciacompetencia as $key => $value) {
 				printf('<th id="%s">
@@ -90,7 +90,7 @@
 			</thead>
 			<tbody>');
 			foreach ($mediciones_gruposcompetencias_competencias->result() as $medicion_grupocompetencia_competencia) {
-				printf('<tr>',$medicion_grupocompetencia_competencia->ID_GrupoCompetencia_Competencia,$medicion_grupocompetencia_competencia->ID_GrupoCompetencia_Competencia);
+				printf('<tr class="primero">',$medicion_grupocompetencia_competencia->ID_GrupoCompetencia_Competencia,$medicion_grupocompetencia_competencia->ID_GrupoCompetencia_Competencia);
 				//Paso el objeto stdClass a Array para modificar COD_Centro y COD_Curso
 				//$cicloArray = get_object_vars($ciclo);
 				//var_dump($ciclo['ID_curso']);

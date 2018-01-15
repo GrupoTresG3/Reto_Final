@@ -40,6 +40,7 @@ a {
     text-decoration: none;
 }
 
+
 a:hover {
     border-bottom-color: #5DA1C3;
     color: #5DA1C3;
@@ -62,7 +63,16 @@ a.button { background: #5DA1C3;
     text-transform: uppercase;
     font-weight: bold;
 }
+.sf-menu   a:hover{
+     background:#2A2E32; 
+     border-radius: 15px 0 15px 0;
+     animation:boton 1s;
 
+    }
+    @keyframes boton{
+ 0%   { background-color: black;}   
+     100% { background-color: darkgrey;}  
+    }
 a.button:hover {
     background:#4995BC;
 }

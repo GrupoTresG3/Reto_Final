@@ -59,8 +59,7 @@
 		if ($equipos_usuarios){
 			printf('<table>
 				<thead>			
-				<tr>');
-			$primerequipousuario = $equipos_usuarios->result()[0];
+				<tr class="primero">');$primerequipousuario = $equipos_usuarios->result()[0];
 			foreach ($primerequipousuario as $key => $value) {
 				printf('<th id="%s">
 						<span>%s</span>

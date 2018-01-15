@@ -78,8 +78,7 @@
 		if ($retos_modulos){
 			printf('<table>
 				<thead>			
-				<tr>');
-			$primerretomodulo = $retos_modulos->result()[0];
+				<tr class="primero">');$primerretomodulo = $retos_modulos->result()[0];
 			foreach ($primerretomodulo as $key => $value) {
 				printf('<th id="%s">
 						<span>%s</span>

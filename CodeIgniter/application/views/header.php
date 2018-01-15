@@ -68,21 +68,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 }
 #centro{
 	margin-top: 50px;
-	font-weight: bold;
+	
 }
 
 #centro2{
 	margin-bottom: 50px;
-	font-weight: bold;
+	
 }
 
 #margenEditar {
 	margin-top: 50px;
 	margin-bottom: 50px;
-	font-weight: bold;
+	
 }
-#primero tr:nth-child(even) {
-    background-color:#fbfbfb;
+.primero  td:first-child {
+    font-weight: bold;
+  
 }
 
 @media screen and (max-width: 740px) {
@@ -127,13 +128,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!--<link rel="stylesheet" href=<? base_url()?>"css/styles.css" type="text/css"/>-->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src=<? base_url()?>"js/jquery.js"></script>
-<script type="text/javascript" src=<? base_url()?>"js/slider.js"></script>
-<script type="text/javascript" src=<? base_url()?>"js/superfish.js"></script>
 
-<script type="text/javascript" src=<? base_url()?>"js/custom.js"></script>
-<script type="text/javascript" src=<? base_url()?>"js/funciones.js"></script>
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 
 </head>

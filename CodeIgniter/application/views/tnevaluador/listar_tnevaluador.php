@@ -15,7 +15,7 @@
 			</thead>
 			<tbody>');
 			foreach ($tnevaluadores->result() as $tnevaluador) {
-				printf('<tr>',$tnevaluador->ID_TNEvaluador,$tnevaluador->ID_TNEvaluador);
+				printf('<tr class="primero">',$tnevaluador->ID_TNEvaluador,$tnevaluador->ID_TNEvaluador);
 				foreach ($tnevaluador as $detalle) {
 					//Para curso y Centro hay que sacar su COD_CENTRO y COD_CURSO
 					printf('<td>

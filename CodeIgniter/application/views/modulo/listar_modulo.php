@@ -42,8 +42,7 @@
 		if ($modulos){
 			printf('<table>
 				<thead>			
-				<tr>');
-			$primermodulo = $modulos->result()[0];
+				<tr >');$primermodulo = $modulos->result()[0];
 			foreach ($primermodulo as $key => $value) {
 				printf('<th id="%s">
 						<span>%s</span>
@@ -53,7 +52,7 @@
 			</thead>
 			<tbody>');
 			foreach ($modulos->result() as $modulo) {
-				printf('<tr>',$modulo->ID_Modulo,$modulo->ID_Modulo);
+				printf('<tr class="primero">',$modulo->ID_Modulo,$modulo->ID_Modulo);
 				//Paso el objeto std	Class a Array para modificar COD_Centro y COD_Curso
 				//$cicloArray = get_object_vars($ciclo);
 				//var_dump($ciclo['ID_curso']);
