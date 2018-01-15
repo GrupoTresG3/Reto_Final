@@ -1,12 +1,28 @@
 $(document).ready(function(){
+
+    //Gestion centros
     $("#cargarCentro").click(function(){
         $("#contenido").load("index.php/Centro");
+    });
+     $("#cargarCurso").click(function(){
+        $("#contenido").load("index.php/Curso");
     });
     $("#cargarCiclo").click(function(){
         $("#contenido").load("index.php/Ciclo");
     });
-    $("#cargarCurso").click(function(){
-        $("#contenido").load("index.php/Curso");
+    $("#cargarModulo").click(function(){
+        $("#contenido").load("index.php/Modulo");
+    });
+    $("#cargarReto_modulo").click(function(){
+        $("#contenido").load("index.php/Reto_Modulo");
+    });
+   
+    //Gestion Usuarios
+    $("#cargarUsuario").click(function(){
+        $("#contenido").load("index.php/Usuario");
+    });
+    $("#cargarTUsuario").click(function(){
+        $("#contenido").load("index.php/TUsuario");
     });
     $("#cargarEquipo").click(function(){
         $("#contenido").load("index.php/Equipo");
@@ -14,28 +30,39 @@ $(document).ready(function(){
     $("#cargarEquipo_usuario").click(function(){
         $("#contenido").load("index.php/Equipo_Usuario");
     });
-     $("#cargarModulo").click(function(){
-        $("#contenido").load("index.php/Modulo");
-    });
-     $("#cargarReto").click(function(){
+     
+    $("#cargarReto").click(function(){
         $("#contenido").load("index.php/Reto");
     });
-     $("#cargarReto_modulo").click(function(){
-        $("#contenido").load("index.php/Reto_Modulo");
+     
+     
+    //Gestion Rubricas  
+    $("#cargarNotas").click(function(){
+        $("#contenido").load("index.php/Notas");
     });
-     $("#cargarTUsuario").click(function(){
-        $("#contenido").load("index.php/TUsuario");
-    });
-      $("#cargarUsuario").click(function(){
-        $("#contenido").load("index.php/Usuario");
-    });
-      $("#cargarCompetencia").click(function(){
-        $("#contenido").load("index.php/Competencia");
-    });
-      $("#cargarMedicion").click(function(){
+    $("#cargarMedicion").click(function(){
         $("#contenido").load("index.php/Medicion");
     });
-       $("#cargarLogin").click(function(){
+    $("#cargarCompetencia").click(function(){
+        $("#contenido").load("index.php/Competencia");
+    });
+    $("#cargarGrupoCompetencia").click(function(){
+        $("#contenido").load("index.php/GrupoCompetencia");
+    });
+    $("#cargarMGCC").click(function(){
+        $("#contenido").load("index.php/Medicion_GrupoCompetencia_Competencia");
+    });
+    $("#cargarReto_Medicion").click(function(){
+        $("#contenido").load("index.php/Reto_Medicion");
+    });
+
+
+     $("#cargarMatricularse").click(function(){
+        $("#contenido").load("index.php/Matricularse");
+    });
+
+
+    $("#cargarLogin").click(function(){
         $("#contenido").load("index.php/Login");
     });
 });

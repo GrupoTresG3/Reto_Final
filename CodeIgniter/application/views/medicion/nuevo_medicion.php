@@ -35,6 +35,9 @@ $DESC_Medicion = array(
 ?>
 
 <div id="centro2">
+	<?php 
+	   if((isset($_SESSION['user_id']))&&($_SESSION['user_id']=='1')){
+		?>
 	<?php echo form_open('Medicion/nuevo_medicion',$form);?>
 	<?php echo form_label('TUsuario: ','ID_TUsuario'); ?>
 	<?php
@@ -51,4 +54,6 @@ $DESC_Medicion = array(
 	<br>	
 	<?php echo form_submit('Crear','Crear'); ?>
 	<?php echo form_close();?>
+	<?php
+	}  ?>
 </div>

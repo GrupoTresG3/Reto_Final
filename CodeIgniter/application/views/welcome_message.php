@@ -61,31 +61,44 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                         <li>
 
-                          <a href=<? base_url()?>"index.php">Gestion administrativa</a>
+                            <a>Gestion Centros</a>
 
-                          <ul>
-                            <li><a href=<? base_url()?>"#" id="cargarCentro">Centro</a></li>
-                            <li><a href=<? base_url()?>"#" id="cargarCiclo">Ciclo</a></li>
-                            <li><a href=<? base_url()?>"#" id="cargarCurso">Curso</a></li>
-                            <li><a href=<? base_url()?>"#" id="cargarEquipo">Equipo</a></li>
-                            <li><a href=<? base_url()?>"#" id="cargarEquipo_usuario">Equipo Usuario</a></li>
-                            <li><a href=<? base_url()?>"#" id="cargarModulo">Modulo</a></li>
-                            <li><a href=<? base_url()?>"#" id="cargarReto">Reto</a></li>
-                            <li><a href=<? base_url()?>"#" id="cargarReto_modulo">Reto Modulo</a></li>
-                            <li><a href=<? base_url()?>"#" id="cargarTUsuario">TUsuario</a></li>
-                            <li><a href=<? base_url()?>"#" id="cargarUsuario">Usuario</a></li>
-                        </ul>
-                    </li>
+                            <ul>
+                                <li><a href=<? base_url()?>"#" id="cargarCentro">Centro</a></li>
+                                <li><a href=<? base_url()?>"#" id="cargarCurso">Curso</a></li>
+                                <li><a href=<? base_url()?>"#" id="cargarCiclo">Ciclo</a></li>
+                                <li><a href=<? base_url()?>"#" id="cargarModulo">Modulo</a></li>
+                                <li><a href=<? base_url()?>"#" id="cargarReto_modulo">Reto Modulo</a></li> 
+                            </ul>
+                        </li>
+
+                        <li>
+
+                            <a>Gestion Usuarios</a>
+
+                            <ul>
+                                <li><a href=<? base_url()?>"#" id="cargarUsuario">Usuario</a></li>
+                                <li><a href=<? base_url()?>"#" id="cargarTUsuario">TUsuario</a></li>
+                                <li><a href=<? base_url()?>"#" id="cargarEquipo">Equipo</a></li>
+                                <li><a href=<? base_url()?>"#" id="cargarEquipo_usuario">Equipo Usuario</a></li>
+                                <li><a href=<? base_url()?>"#" id="cargarReto">Reto</a></li> 
+                            </ul>
+                        </li> 
                     <li>
-
-                        <a href=<? base_url()?>"index.php">Rubricas</a>
+                        <a>Gestion Rubricas</a>
 
                         <ul>
-
-                            <li><a href=<? base_url()?>"#" id="cargarCompetencia">Competencia</a></li>
+                            <li><a href=<? base_url()?>"#" id="cargarNotas">Notas</a></li>
                             <li><a href=<? base_url()?>"#" id="cargarMedicion">Medicion</a></li>
+                            <li><a href=<? base_url()?>"#" id="cargarCompetencia">Competencia</a></li>
+                            <li><a href=<? base_url()?>"#" id="cargarGrupoCompetencia">GrupoCompetencia</a></li>
+                            <li><a href=<? base_url()?>"#" id="cargarMGCC">MGCC</a></li>
+                            <li><a href=<? base_url()?>"#" id="cargarReto_Medicion">Reto Medicion</a></li>
                         </ul>
                     </li>
+
+                     <li><a href=<? base_url()?>"#" id="cargarMatricularse">Matricularse</a></li>
+                    
                     <li><a href=<? base_url()?>"index.php/Login/cerrar_sesion" >Cerrar Sesion</a></li>
                 </ul>
                 <div class="clear"></div>

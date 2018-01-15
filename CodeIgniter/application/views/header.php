@@ -37,11 +37,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     td {
         border-bottom: 1px solid #1F2023;
+
     }
 
     a {
         color: white;
-        border-bottom: 1px solid #6B7480;
+        border-bottom: 0px solid #6B7480;
         text-decoration: none;
     }
 
@@ -79,6 +80,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	margin-top: 50px;
 	margin-bottom: 50px;
 	font-weight: bold;
+}
+#primero tr:nth-child(even) {
+    background-color:#fbfbfb;
 }
 
 @media screen and (max-width: 740px) {
@@ -139,8 +143,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div id="cabecera">
 
-           <h1>Gestion de tablas para Admin</h1>
-
-           <a href="">Cerrar Sesion</a>
-
+        
        </div>

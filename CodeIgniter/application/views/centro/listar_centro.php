@@ -2,7 +2,7 @@
 <?php
 		printf('Gestión de CENTROS');
 		if ($centros){
-			printf('<table>
+			printf('<table id="primero">
 				<thead>			
 				<tr>');
 			$primercentro = $centros->result()[0];
