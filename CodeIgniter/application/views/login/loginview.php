@@ -7,7 +7,7 @@ $form = array(
 );
 $user = array(
   'name' => 'user',
-  'placeholder' => 'Insete Usuario',
+  'placeholder' => 'Inserte Usuario',
   'maxlength' => 10,
   'class' => 'prueba',
   'size' => 20,

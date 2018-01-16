@@ -42,12 +42,8 @@
 		if ($modulos){
 			printf('<table>
 				<thead>			
-<<<<<<< HEAD
 				<tr>');
 			$primermodulo = $modulos->result()[0];
-=======
-				<tr >');$primermodulo = $modulos->result()[0];
->>>>>>> ac0bda4bf103d0212fbbec9b78dda880aeda5ba0
 			foreach ($primermodulo as $key => $value) {
 				printf('<th id="%s">
 						<span>%s</span>
@@ -57,11 +53,8 @@
 			</thead>
 			<tbody>');
 			foreach ($modulos->result() as $modulo) {
-<<<<<<< HEAD
 				printf('<tr>',$modulo->ID_Modulo,$modulo->ID_Modulo);
-=======
 				printf('<tr class="primero">',$modulo->ID_Modulo,$modulo->ID_Modulo);
->>>>>>> ac0bda4bf103d0212fbbec9b78dda880aeda5ba0
 				//Paso el objeto std	Class a Array para modificar COD_Centro y COD_Curso
 				//$cicloArray = get_object_vars($ciclo);
 				//var_dump($ciclo['ID_curso']);
@@ -76,15 +69,10 @@
 				printf('</tr>');
 			}
 			printf('</tbody></table>');
-<<<<<<< HEAD
-			
-=======
->>>>>>> ac0bda4bf103d0212fbbec9b78dda880aeda5ba0
 		}
 		else{
 				printf('No hay Registros');
 		}
-<<<<<<< HEAD
 		printf('--------------------------------------------------------------------<br>');
 		?>
 			<br>
@@ -94,9 +82,5 @@
 			?>
 
 			<?php echo form_button('Nuevo','Nuevo Modulo',$js_volver_button) ?>		
-=======
-
-		printf('--------------------------------------------------------------------<br>');	
-		?>		
->>>>>>> ac0bda4bf103d0212fbbec9b78dda880aeda5ba0
+		
 </div>

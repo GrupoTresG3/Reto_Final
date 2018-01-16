@@ -91,16 +91,13 @@
 		}
 
 		printf('--------------------------------------------------------------------<br>');
+
 		?>
+		<br>
 			<?php 
 				$url = "'".base_url()."index.php/Equipo_Usuario/nuevo'";
 				$js_volver_button = 'onClick="location.href='.$url.'"';
 				?>
 
 				<?php echo form_button('Nuevo','Nuevo Equipo Usuario',$js_volver_button) ?>		
-
-		printf('--------------------------------------------------------------------<br>');	
-		?>	
-		
-
 </div>

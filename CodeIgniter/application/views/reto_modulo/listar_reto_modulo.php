@@ -117,6 +117,5 @@
 				$js_volver_button = 'onClick="location.href='.$url.'"';
 				?>
 
-				<?php echo form_button('Nuevo','Nuevo Reto Modulo',$js_volver_button) ?>		
-		?>		
+				<?php echo form_button('Nuevo','Nuevo Reto Modulo',$js_volver_button) ?>			
 </div>
