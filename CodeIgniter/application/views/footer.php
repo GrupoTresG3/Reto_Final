@@ -1,5 +1,5 @@
 <div id="cabecera">
-	<div id=botonVolver>
+
 	
 	<?php 
 		$url = "'".base_url()."index.php'";
@@ -7,7 +7,6 @@
 	 ?>
 
 	<?php echo form_button('Volver','Volver',$js_volver_button); ?>
-	</div>
 
 </div>
 

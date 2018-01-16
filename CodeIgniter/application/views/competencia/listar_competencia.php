@@ -25,6 +25,7 @@
 			foreach ($competencias->result() as $competencia) {
 				printf('<tr>
 					',$competencia->ID_Competencia,$competencia->ID_Competencia);
+				printf('<tr class="primero">',$competencia->ID_Competencia,$competencia->ID_Competencia);
 				foreach ($competencia as $detalle) {
 					//Para curso y Centro hay que sacar su COD_CENTRO y COD_CURSO
 					printf('<td>

@@ -51,6 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
    }
 
    #cabecera {
+
        border: 40px solid #474F58;
        background-color: #474F58;
        border-radius: 6px;
@@ -126,6 +127,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 @media screen and (max-width: 770px) {
 
+#container {
+    width: auto;
+    margin: 0 auto;
+}
+#centro{
+	margin-top: 50px;
+	
+}
+
+#centro2{
+	margin-bottom: 50px;
+	
+}
+
+#margenEditar {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+.primero  td:first-child {
+    font-weight: bold;
+  
+}
+
+@media screen and (max-width: 740px) {
+
     body { 
         font-size: 0.8em; 
     }   
@@ -195,7 +222,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     table {
         display: block;
         overflow-x: auto;
-    } 
+    }
 
     .prueba {
     	font-size: 11pt;
@@ -241,6 +268,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     select {
         margin: 3px;
     }
+
 }
 
 </style>

@@ -71,3 +71,4 @@ $DESC_Ciclo = array(
 	<?php echo form_submit('Crear','Crear',"id='botonesNuevo'"); ?>
 	<?php echo form_close();?>
 </div>
+

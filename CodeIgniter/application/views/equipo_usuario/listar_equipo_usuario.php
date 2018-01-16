@@ -98,4 +98,9 @@
 				?>
 
 				<?php echo form_button('Nuevo','Nuevo Equipo Usuario',$js_volver_button) ?>		
+
+		printf('--------------------------------------------------------------------<br>');	
+		?>	
+		
+
 </div>

@@ -50,6 +50,10 @@ $DESC_Modulo = array(
 	<?php echo form_label('Descripción de Modulo: ','DESC_Modulo'); ?>
 	<?php echo form_input($DESC_Modulo); ?>
 	<br>	
+<<<<<<< HEAD
 	<?php echo form_submit('Crear','Crear',"id='botonesNuevo'"); ?>
+=======
+	<?php echo form_submit('Crear','Crear'); ?>
+>>>>>>> ac0bda4bf103d0212fbbec9b78dda880aeda5ba0
 	<?php echo form_close();?>
 </div>

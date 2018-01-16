@@ -81,4 +81,5 @@
 				?>
 
 				<?php echo form_button('Nuevo','Nuevo Equipo',$js_volver_button) ?>	
+		?>		
 </div>

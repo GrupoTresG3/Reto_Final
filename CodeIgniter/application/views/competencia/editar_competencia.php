@@ -65,6 +65,7 @@ $Excelente = array(
 	<?php echo form_input($Excelente); ?>
 	<br>
 	<?php echo form_submit('Guardar','Guardar',"id='botonesEditar'"); ?>
+
 	<?php echo form_button('Cancelar','Cancelar',$js_cancel_button); ?>
 	<?php echo form_close();?>
 </div>

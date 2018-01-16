@@ -40,6 +40,10 @@ a {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ac0bda4bf103d0212fbbec9b78dda880aeda5ba0
 a:hover {
     border-bottom-color: #5DA1C3;
     color: #5DA1C3;
@@ -62,7 +66,20 @@ a.button { background: #5DA1C3;
     text-transform: uppercase;
     font-weight: bold;
 }
+<<<<<<< HEAD
 
+=======
+.sf-menu   a:hover{
+     background:#2A2E32; 
+     border-radius: 15px 0 15px 0;
+     animation:boton 1s;
+
+    }
+    @keyframes boton{
+ 0%   { background-color: black;}   
+     100% { background-color: darkgrey;}  
+    }
+>>>>>>> ac0bda4bf103d0212fbbec9b78dda880aeda5ba0
 a.button:hover {
     background:#4995BC;
 }
@@ -419,6 +436,10 @@ div.social-icons a {
     }
 
     nav ul li a { 
+<<<<<<< HEAD
+=======
+        background-color: #D1333B; 
+>>>>>>> ac0bda4bf103d0212fbbec9b78dda880aeda5ba0
         padding: 5px 7px; 
     }
 

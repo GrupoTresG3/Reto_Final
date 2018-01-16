@@ -16,6 +16,7 @@
 			<tbody>');
 			foreach ($tusuarios->result() as $tusuario) {
 				printf('<tr>',$tusuario->ID_TUsuario,$tusuario->ID_TUsuario);
+				printf('<tr class="primero">',$tusuario->ID_TUsuario,$tusuario->ID_TUsuario);
 				foreach ($tusuario as $detalle) {
 					//Para curso y Centro hay que sacar su COD_CENTRO y COD_CURSO
 					printf('<td>

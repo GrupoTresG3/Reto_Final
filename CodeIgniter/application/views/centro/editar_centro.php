@@ -34,3 +34,6 @@ $DESC_Centro = array(
 	<?php echo form_button('Cancelar','Cancelar',$js_cancel_button); ?>
 	<?php echo form_close();?>
 </div>
+
+	<?php echo form_close();?>
+</div>

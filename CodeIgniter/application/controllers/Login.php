@@ -15,6 +15,7 @@ class Login extends CI_Controller {
   { 
     $this->load->view('header');
     $this->load->view('login/loginview');
+    $this->load->view('footer');
   }
 
     public function obtener_tipo_usuario(){

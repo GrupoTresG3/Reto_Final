@@ -17,6 +17,7 @@ $DESC_Centro = array(
 	'size' => 25
 	);
 ?>
+
 <div id='centro2'>
 	<?php echo form_open('Centro/nuevo_centro',$form);?>
 	<?php echo form_label('Código de Centro: ','COD_Centro'); ?>
@@ -28,4 +29,7 @@ $DESC_Centro = array(
 	<?php echo form_submit('Crear','Crear',"id='botonesNuevo'"); ?>
 	<?php echo form_close();?>
 </div>
+	<?php echo form_close();?>
+</div>
+
 

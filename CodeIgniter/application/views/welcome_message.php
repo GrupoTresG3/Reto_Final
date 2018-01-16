@@ -22,7 +22,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <?php
     session_start();
     if(!isset($_SESSION['user_id'])){
-
         ?>
         <div id="container" class="width">
 
@@ -54,7 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
              <div class="width">
 
 
-                <nav>	
+                <nav>   
                     <ul class="sf-menu dropdown">
 
                         <li class="selected"><a href="index.php">Inicio</a></li>

@@ -71,6 +71,7 @@
 			<tbody>');
 			foreach ($usuarios->result() as $usuario) {
 				printf('<tr>',$usuario->ID_Usuario,$usuario->ID_Usuario);
+				printf('<tr class="primero">',$usuario->ID_Usuario,$usuario->ID_Usuario);
 				//Paso el objeto stdClass a Array para modificar COD_Centro y COD_Curso
 				//$cicloArray = get_object_vars($ciclo);
 				//var_dump($ciclo['ID_curso']);

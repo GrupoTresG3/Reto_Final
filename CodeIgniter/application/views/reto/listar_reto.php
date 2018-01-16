@@ -16,6 +16,7 @@
 			<tbody>');
 			foreach ($retos->result() as $reto) {
 				printf('<tr>',$reto->ID_Reto,$reto->ID_Reto);
+				printf('<tr class="primero">',$reto->ID_Reto,$reto->ID_Reto);
 				foreach ($reto as $detalle) {
 					//Para curso y Centro hay que sacar su COD_CENTRO y COD_CURSO
 					printf('<td>

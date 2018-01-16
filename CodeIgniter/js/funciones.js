@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     //Gestion centros
     $("#cargarCentro").click(function(){
-        $("#contenido").load("index.php/Centro");
+      $("#contenido").load("index.php/Centro");
     });
      $("#cargarCurso").click(function(){
         $("#contenido").load("index.php/Curso");

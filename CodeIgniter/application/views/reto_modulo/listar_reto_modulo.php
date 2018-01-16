@@ -104,7 +104,6 @@
 				printf('</tr>');
 			}	
 			printf('</tbody></table>');
-			
 		}
 		else{
 				printf('No hay Registros');
@@ -119,4 +118,5 @@
 				?>
 
 				<?php echo form_button('Nuevo','Nuevo Reto Modulo',$js_volver_button) ?>		
+		?>		
 </div>

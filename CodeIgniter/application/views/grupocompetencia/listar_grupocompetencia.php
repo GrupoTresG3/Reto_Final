@@ -16,6 +16,7 @@
 			<tbody>');
 			foreach ($gruposcompetencias->result() as $grupocompetencia) {
 				printf('<tr>',$grupocompetencia->ID_Grupo_Competencia,$grupocompetencia->ID_Grupo_Competencia);
+				printf('<tr class="primero">',$grupocompetencia->ID_Grupo_Competencia,$grupocompetencia->ID_Grupo_Competencia);
 				foreach ($grupocompetencia as $detalle) {
 					//Para curso y Centro hay que sacar su COD_CENTRO y COD_CURSO
 					printf('<td>
